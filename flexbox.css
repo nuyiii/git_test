@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
-.menu-container { 
-color: #fff;
-background-color: #5995DA;
+.menu-container {
+    display: flex; 
+    color: #fff;
+    background-color: #5995DA;
+    justify-content: center;
 }
 
 .menu {
     border: 1px solid #fff;
     width: 900px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links {
+    display:flex;
+    border: 1px solid #fff;
+    justify-content: flex-end;
 }
